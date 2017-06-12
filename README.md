@@ -5,19 +5,18 @@ All what was needed is basic knowledge of HTML and CSS.
 
 The challenging part of this project was the structure/layout.
 
-Technologies and Tools used:
-- HTML/CSS
-- Git
-- Visual Studio Code
-- Cup of coffee
-
 ## Elements needed:
 - Logo
 - Buttons/Links (top right)
 - Input
 - Buttons (under the input)
 - Links of Languages
-- Sticky footer bar
 
+- Sticky footer bar
+## Technologies and Tools used:
+- HTML/CSS
+- Git
+- Visual Studio Code
+- Cup of coffee
 ### Links
 [The Odin Project - HTML/CSS](https://www.theodinproject.com/courses/web-development-101/lessons/html-css?ref=lnav#)
