@@ -4,7 +4,7 @@ body {
 
 nav {
     position: absolute;
-    top:8px;
+    top:16px;
     right:0;
     padding: 0 30px;
 }
@@ -25,11 +25,16 @@ nav ul li:last-child {
 nav ul li a {
     color: #000;
     font-size: 13px;
-    line-height: 24px;
+    line-height: 30px;
     vertical-align: middle;
     outline: none;
     text-decoration: none;
     opacity: .75;
+}
+
+nav ul li a:hover {
+    opacity: .85;
+    text-decoration: underline;
 }
 
 .flexme {
@@ -70,5 +75,17 @@ nav ul li a {
     background: #4285f4;
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     background: linear-gradient(top,#4387fd,#4683ea);
-    filter: progid:DXImageTransform.Microsoft.gradien
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4387fd,endColorstr=#4683ea,GradientType=0);
+}
+
+.btn-signin:hover {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
+
+.btn-signin:active {
+    background: #3c7ae4;
+    background: -webkit-linear-gradient(top,#3c7ae4,#3f76d3);
+    background: linear-gradient(top,#3c7ae4,#3f76d3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3c7ae4,endColorstr=#3f76d3,GradientType=0);
 }
