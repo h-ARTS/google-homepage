@@ -5,6 +5,9 @@ All what was needed is basic knowledge of HTML and CSS.
 
 The challenging part of this project was the structure/layout.
 
+#### Demo: [Fake Google Homepage](https://h-ARTS.github.io/odin/google-homepage)
+
+
 ## Elements needed:
 - Logo
 - Buttons/Links (top right)
